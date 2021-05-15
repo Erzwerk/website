@@ -60,9 +60,7 @@ function uidExists($conn, $benutzername) {
 
     $resultData = mysqli_stmt_get_result($stmt);
 
-    $row = mysqli_fetch_assoc($resultData);
-        return $row;
-
+   return mysqli_fetch_assoc($resultData);
 }
 
 function emailExists($conn, $email) {
@@ -77,9 +75,7 @@ function emailExists($conn, $email) {
 
     $resultData = mysqli_stmt_get_result($stmt);
 
-    $row = mysqli_fetch_assoc($resultData);
-        return $row;
-
+    return mysqli_fetch_assoc($resultData);
 }
 
 function pwdExists($conn, $pwd) {
@@ -94,9 +90,7 @@ function pwdExists($conn, $pwd) {
     mysqli_stmt_execute($stmt);
 
     $resultData = mysqli_stmt_get_result($stmt);
-    $row = mysqli_fetch_assoc($resultData);
-
-    return $row;
+    return mysqli_fetch_assoc($resultData);
 }
 
 function  createUser($conn, $name, $email, $benutzername, $pwd) {
