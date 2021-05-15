@@ -28,7 +28,7 @@ if(isset($_POST["submit"])){
         exit();
     }
     if(invalidEmail($email) === true){
-        header("location: signup.php?error=invalidEmail");                                                               //Alle links wurden geändert. Nochmal ins Protokoll übernehmen
+        header("location: signup.php?error=invalidEmail");                                                               
         exit();
     }
     if (pwdlength($pwd) === true){
@@ -39,15 +39,15 @@ if(isset($_POST["submit"])){
         header("location: signup.php?error=passwordsdontmatch");
         exit();
     }
-    if(uidExists($conn, $benutzername) !== false){
+    if(uidExists($conn, $benutzername) !== null){
         header("location: signup.php?error=usernametaken");
         exit();
     }
-    if (emailExists($conn, $email) !== false){
+    if (emailExists($conn, $email) !== null){
         header("Location: signup.php?error=emailtaken");
         exit();
     }
-    if (pwdExists($conn, $pwd) !== false){
+    if (pwdExists($conn, $pwd) !== null){
         header("location: signup.php?error=pwdtaken");
         exit();
     }
