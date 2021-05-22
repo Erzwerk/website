@@ -16,7 +16,7 @@
         include "../header.html";
         include "Navbar57.php";
         ?>
-<body>
+
 <body>
 
 <div class="column">
