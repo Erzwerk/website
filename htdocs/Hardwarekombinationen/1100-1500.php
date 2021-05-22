@@ -17,6 +17,21 @@
         include "Navbar57.php";
         ?>
 <body>
+<div class="column">
+    <div id="corners1">
+        <h2> CPU </h2>
+        Intel Core i9 11900k <br>
+        <a id="preis"> Preis: </a> <br>
+        <a class="preis"> 473€ </a>
+    </div>
+</div>
 
+<div class="column">
+    <div id="corners2">
+        <h2> GPU </h2>
+         AMD RX 6900 XT  <br>
+        <a id="preis"> Preis: </a> <br>
+        <a class="preis"> 860€ </a>
+    </div>
 </body>
 </html>
