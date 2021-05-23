@@ -17,6 +17,7 @@
         include "../header.html";
         include "Navbar57.php";
         ?>
+    
 <body>
 <div class="column">
     <div id="corners1">
@@ -34,5 +35,6 @@
         <a id="preis"> Preis: </a> <br>
         <a class="preis"> 1290€ </a>
     </div>
+</div>
 </body>
 </html>
