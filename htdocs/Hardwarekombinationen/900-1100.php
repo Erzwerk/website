@@ -34,5 +34,7 @@
         <a id="preis"> Preis: </a> <br>
         <a class="preis"> 602€ </a>
     </div>
+</div>
+    
 </body>
 </html>
