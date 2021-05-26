@@ -28,14 +28,14 @@
   <div class="column">
    <div id="corners1">
     <h2> Allgemeine Gamingnews </h2>
-    <p>Neue Patch notes in League of Legends
-    Patch Note 11.11, der Nerf von Master YI und Morgana wird dem
-    Jungle auf längere Zeit guttun.
-    <a href="https://oce.leagueoflegends.com/en-us/news/game-updates/patch-11-11-notes/">Link zur LoL- Webseite</a>
-    Rust bekommt ein neues update
-    <a href="https://www.youtube.com/watch?v=pYBjVu3KLFM/">Shadowfrax video</a>
-    Die neuen Uboote? Und neues DLC in Rust
-    Rust update 17.5
+    <p>Neue Patch notes in League of Legends<br>
+Patch Note 11.11, der Nerf von Master YI und <br>
+Morgana wird dem Jungle auf längere Zeit guttun. <br>
+<a href="https://oce.leagueoflegends.com/en-us/news/game-updates/patch-11-11-notes/">Link zur LoL- Webseite</a> <br>
+Rust bekommt ein neues update<br>
+<a href="https://www.youtube.com/watch?v=pYBjVu3KLFM/">Shadowfrax video</a><br>
+Die neuen Uboote? Und neues DLC in Rust<br>
+Rust update 17.5 <br>
     </p>
   </div>
     </div>
@@ -43,14 +43,25 @@
   <div class="column">
     <div id="corners2">
     <h2> Hardwarenews </h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    <p>Neue RTX reihe ist immer noch ausverkauft <br>
+und schwer zu bekommen, die Preise liegen immer noch mehr als 100 € über dem Retailpreis. <br>
+Intels neues Lineup ist vielleicht wieder kompetitiv <br>
+mit AMDs CPUs<br>
+<a href="https://www.youtube.com/watch?v=tjUxrEGCk18/">Video von Kreativecke</a> <br>
+Momentan ist Intel besser im geringem Preissegment. <br>
+</p>
   </div>
       </div>
   
   <div class="column">
     <div id="corners3">
     <h2> News bezüglich Gamingguides </h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    <p>League of Legends Streamer Tyler1 hat wieder mal sein Tisch zerschlagen. <br>
+Twitch bannt Badestreams vor allem Weibliche sind davon betroffen. <br>
+Twitch verliert im Gericht gegen Phantomlord, <br>
+wegen unzulässigen Bannes und muss mehrere tausend <br>
+Euro deshalb bezahlen<br>
+</p>
   </div>
 </div>
     
