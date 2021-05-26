@@ -28,7 +28,15 @@
   <div class="column">
    <div id="corners1">
     <h2> Allgemeine Gamingnews </h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    <p>Neue Patch notes in League of Legends
+    Patch Note 11.11, der Nerf von Master YI und Morgana wird dem
+    Jungle auf längere Zeit guttun.
+    <a href="https://oce.leagueoflegends.com/en-us/news/game-updates/patch-11-11-notes/">Link zur LoL- Webseite</a>
+    Rust bekommt ein neues update
+    <a href="https://www.youtube.com/watch?v=pYBjVu3KLFM/">Shadowfrax video</a>
+    Die neuen Uboote? Und neues DLC in Rust
+    Rust update 17.5
+    </p>
   </div>
     </div>
   
