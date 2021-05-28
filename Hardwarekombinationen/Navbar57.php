@@ -15,7 +15,6 @@ session_start();
                 <li><a href="700-900.php">700€ - 900€</a>
                 <li><a href="900-1100.php">900€ - 1100€</a>
                 <li><a href="1100-1500.php">1100€ - 1500€</a>
-                <li><a href="1500-2000.php">1500€ - 2000€</a>
                     
                     <?php
                     if(isset($_SESSION["id"])){
