@@ -11,11 +11,12 @@ session_start();
         <li><a class="homer" href="#"><i class="fa fa-fw fa-television"></i> HARDWAREKOMBINATIONEN</a>
             <ul>
                 <li><a align="center">FERTIGE KOMBINATIONEN</a>
-                <li><a href="500-700.php">500$ - 700$</a>
-                <li><a href="700-900.php">700$ - 900$</a>
-                <li><a href="900-1100.php">900$ - 1100$</a>
-                <li><a href="1100-1500.php">1100$ - 1500$</a>
-                <li><a href="1500-2000.php">1500$ - 2000$</a>
+                <li><a href="500-700.php">500€ - 700€</a>
+                <li><a href="700-900.php">700€ - 900€</a>
+                <li><a href="900-1100.php">900€ - 1100€</a>
+                <li><a href="1100-1500.php">1100€ - 1500€</a>
+                <li><a href="1500-2000.php">1500€ - 2000€</a>
+                    
                     <?php
                     if(isset($_SESSION["id"])){
                         echo " <li><a href='../Hardwarekombinationen/Hardwarekominationen.php' align='center'>SELBER KONFIGURIEREN</a></li>";
