@@ -1,6 +1,6 @@
 <?php
 
-function emptyInputSignup($name, $benutzername, $email, $pwd, $pwdrepeat): bool {
+function emptyInputSignup($name, $benutzername, $email, $pwd, $pwdrepeat){
     $result = false;
     if(empty($name) || empty($benutzername) || empty($email) || empty($pwd) || empty($pwdrepeat) ){
      $result = true;   
@@ -16,7 +16,7 @@ function uidlength($benutzername){
     return $result;
 }
 
-function invalidUid($benutzername): bool {
+function invalidUid($benutzername){
    $result = false;
     if(!preg_match('/^[a-zA-Z0-9]*$/', $benutzername)){
      $result = true;   
@@ -24,7 +24,7 @@ function invalidUid($benutzername): bool {
     return $result;
 }
 
-function invalidEmail($email): bool {
+function invalidEmail($email){
    $result = false;
     if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
      $result = true;   
@@ -40,7 +40,7 @@ function pwdlength($pwd){
     return $result;
 }
 
-function pwdMatch($pwd, $pwdrepeat): bool {
+function pwdMatch($pwd, $pwdrepeat) {
    $result = false;
     if($pwd !== $pwdrepeat){
      $result = true;   
@@ -48,7 +48,7 @@ function pwdMatch($pwd, $pwdrepeat): bool {
     return $result;
 }
 
-function uidExists($conn, $benutzername) {
+function uidExists($conn, $benutzername){
     $sql = "SELECT * FROM benutzer WHERE benutzername = ?;";
     $stmt = mysqli_stmt_init($conn);
     if(!mysqli_stmt_prepare($stmt, $sql)){
@@ -60,7 +60,7 @@ function uidExists($conn, $benutzername) {
 
     $resultData = mysqli_stmt_get_result($stmt);
 
-   return mysqli_fetch_assoc($resultData);
+    return mysqli_fetch_assoc($resultData);
 }
 
 function emailExists($conn, $email) {
@@ -78,21 +78,6 @@ function emailExists($conn, $email) {
     return mysqli_fetch_assoc($resultData);
 }
 
-function pwdExists($conn, $pwd) {
-    $hashedPwd = password_hash($pwd, PASSWORD_DEFAULT);
-    $sql = "SELECT * FROM benutzer WHERE passwort = ?;";
-    $stmt = mysqli_stmt_init($conn);
-    if(!mysqli_stmt_prepare($stmt, $sql)){
-        header("location: signup.php?error=stmtfailed");
-        exit();
-    }
-    mysqli_stmt_bind_param($stmt, "s", $hashedPwd);
-    mysqli_stmt_execute($stmt);
-
-    $resultData = mysqli_stmt_get_result($stmt);
-    return mysqli_fetch_assoc($resultData);
-}
-
 function  createUser($conn, $name, $email, $benutzername, $pwd) {
  $sql = "INSERT INTO benutzer (Name, benutzername, Email, passwort) VALUES (?, ?, ?,?);";
  $stmt = mysqli_stmt_init($conn);
@@ -104,15 +89,29 @@ function  createUser($conn, $name, $email, $benutzername, $pwd) {
     mysqli_stmt_bind_param($stmt, "ssss", $name, $benutzername, $email, $hashedPwd);
     mysqli_stmt_execute($stmt);
     mysqli_stmt_close($stmt);
-    header("location: ../Startseite/Startseite.php?error=none");
+    header("location: ../index.php");
 }
 
-function emptyInputLogin($benutzername, $pwd): bool {
+function emptyInputLogin($benutzername, $pwd) {
    $result = false;
     if(empty($benutzername) || empty($pwd)) {
      $result = true;   
     }
     return $result;
+}
+
+function remember ($benutzername, $pwd){
+    if (!empty($_POST["remember"])){
+        setcookie("Lusername", $benutzername, time()+ (365*60*60*24));
+        setcookie("Lpassword", $pwd, time()+ (365*60*60*24));
+    } else {
+        if(isset($_COOKIE["Lusername"])){
+            setcookie("Lusername", "");
+        }
+        if(isset($_COOKIE["Lpassword"])){
+            setcookie("Lpassword", "");
+        }
+    }
 }
 
 function loginUser ($conn, $benutzername, $pwd){
@@ -127,11 +126,11 @@ function loginUser ($conn, $benutzername, $pwd){
 
     $resultData = mysqli_stmt_get_result($stmt);
     $row = mysqli_fetch_assoc($resultData);
-    if($row !== false && password_verify($pwd, $row['passwort'])){
+    if($row !== null && password_verify($pwd, $row['passwort'])){
         session_start();
         $_SESSION['id'] = $row['id'];
         $_SESSION['username'] = $row['benutzername'];
-        header("location: ../Startseite/Startseite.php?error=successful");
+        header("location: ../index.php");
     } else {
         header("location: login.php?error=wronglogin");
     }
