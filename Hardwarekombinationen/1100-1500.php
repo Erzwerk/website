@@ -12,6 +12,12 @@
     <meta name="description" content="Eine Website, welche Hardwarekonfigurationen im Preisbereich 1100€ - 1500€ beinhaltet." />
 
 </head>
+    
+<?php
+include "../header.html";
+include "Navbar57.php";
+?>    
+    
 <section>
     <h2> Erklärung </h2>
     Dieser PC ist eine absolute High-End Maschine, die brachiale Gaming-Performance<br>
