@@ -13,6 +13,7 @@
 
 </head>
 <section>
+    <h2> Erklärung </h2>
     Dieser PC ist eine absolute High-End Maschine, die brachiale Gaming-Performance<br>
     bei einem perfekten Preis-Leistungs-Verhältnis bietet. Die Konfiguration wurde<br>
     perfekt abgestimmt um die beste Gaming Leistung für euer Geld aus dem Budget zu holen.<br>
@@ -24,7 +25,7 @@
     wird man noch Jahre seine Gaming-Freude haben!<br>
     <br>
 </section>
-<table>
+<table style="margin: auto">
     <tr> <th>Bauteil</th>        <th>Bezeichnung</th>                    <th>Link</th> </tr>
     <tr> <td>Prozessor</td>      <td>AMD Ryzen 7 5800X</td> <td> <a href = https://www.mindfactory.de/product_info.php/AMD-Ryzen-7-5800X-8x-3-80GHz-So-AM4-WOF_1380727.html> Hier Klicken </a> </td></tr>
     <tr> <td>Mainboard</td>      <td>MSI B550M Pro-VDH</td> <td> <a href = https://www.mindfactory.de/product_info.php/MSI-B550M-Pro-VDH-AMD-B550-So-AM4-Dual-Channel-DDR4-mATX-Retail_1388359.html> Hier Klicken </a> </td> </tr>
@@ -35,6 +36,6 @@
     <tr> <td>Gehäuse</td>        <td>be quiet! Pure Base 500</td> <td> <a href = https://www.mindfactory.de/product_info.php/be-quiet--Pure-Base-500-mit-Sichtfenster-Midi-Tower-ohne-Netzteil-schwa_1329556.html> Hier Klicken </a> </td> </tr>
     <tr> <td>CPU-Kühler</td>     <td> be quiet! Pure Rock 2 Black</td> <td><a href = https://www.digitalo.de/products/1328924/BeQuiet-PURE-ROCK-2-Chipsatz-Kuehler-mit-Luefter.html?ref=17&utm_source=geizhals&utm_medium=CPC&utm_campaign=A606972&utm_content=intern> Hier Klicken </a></td></tr>
 </table>
-<a href = https://www.hardwaredealz.com/bester-gaming-pc-fuer-unter-1500-euro-gamer-pc-bis-1500-euro>Quelle</a><br>
+<a class="Quelle" href = https://www.hardwaredealz.com/bester-gaming-pc-fuer-unter-1500-euro-gamer-pc-bis-1500-euro>Quelle</a><br>
 </body>
 </html>
