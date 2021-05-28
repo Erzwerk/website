@@ -26,7 +26,7 @@ session_start();
 
         <?php
         if(isset($_SESSION["id"])){
-            echo "<li><a href='../Login/logout.inc.php'> <i class='fa fa-fw fa-user'></i> Logout </a>";
+            echo "<li><a href='../Login/logout.inc.php'> <i class='fa fa-power-off'></i> Logout </a>";
         } else {
             echo "<li><a  href='../Login/login.php'> <i class='fa fa-fw fa-user'></i> LOGIN</a></li>";
             echo "<li><a  href='../Signup/signup.php'> <i class='fa fa-fw fa-user'></i> REGISTRIERUNG</a></li>";
