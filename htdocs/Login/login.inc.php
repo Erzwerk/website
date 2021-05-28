@@ -14,7 +14,8 @@ if(isset($_POST["submit"])){
         header("location: login.php?error=emptyinput");
         exit();
 }
-
+        remember($benutzername, $pwd);
+    
         loginUser($conn, $benutzername, $pwd);
 
     } else {
