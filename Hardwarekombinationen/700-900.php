@@ -10,7 +10,6 @@
     <link rel="icon" type="image/png" href="../ProjektLogo.png">
     <meta name="keywords" content="Hardware, CPU, GPU" />
     <meta name="description" content="Eine Website, welche Hardwarekonfigurationen im Preisbereich 700€ - 900€ beinhaltet." />
-
 </head>
 
         <?php
@@ -19,13 +18,14 @@
         ?>
 
 <body>
-
 <section>
+    <h2> Erklärung </h2>
     Mit diesem PC sollte es möglich sein alle aktuell erhältlichen und kommenden Spiele <br>
     in hohen bis sehr hohen Einstellungen auf 1080p Auflösung mit 60fps flüssig zocken zu können.<br>
     Dank des tollen Prozessors sollte er außerdem auch für die nächsten Jahre auf jeden Fall ausreichend sein.<br>
     Der Gamer PC ist perfekt auf einander abgestimmt worden, alle Teile passen 100% zusammen.<br>
     <br>
+    <h2> Performance </h2>
     - Counter Strike (CS:GO): 320fps @FullHD und hohe Einstellungen<br>
     - Overwatch: 180fps @FullHD und hohe Einstellungen<br>
     - Fortnite Battle Royale: 130fps @FullHD und hohe Einstellungen<br>
@@ -37,7 +37,7 @@
     - 3DMark Firestrike: 16000 Punkte<br>
     <br>
 </section>
-<table>
+<table style="margin: auto">
     <tr> <th>Bauteil</th>        <th>Bezeichnung</th>                    <th>Link</th> </tr>
     <tr> <td>Prozessor</td>      <td>AMD Ryzen 5 3600</td> <td> <a href = https://www.mindfactory.de/product_info.php/AMD-Ryzen-5-3600-6x-3-60GHz-So-AM4-BOX_1313643.html > Hier Klicken </a> </td></tr>
     <tr> <td>Mainboard</td>      <td>MSI B450M Pro-VDH Max</td> <td> <a href = https://www.mindfactory.de/product_info.php/MSI-B450M-Pro-VDH-Max-AMD-B450-So-AM4-Dual-Channel-DDR4-mATX-Retail_1327450.html > Hier Klicken </a> </td> </tr>
@@ -47,8 +47,7 @@
     <tr> <td>Netzteil</td>       <td>400W be quiet! System Power 9</td> <td> <a href = https://www.mindfactory.de/product_info.php/400-Watt-be-quiet--System-Power-9-Non-Modular-80--Bronze_1228435.html> Hier Klicken </a> </td> </tr>
     <tr> <td>Gehäuse</td>        <td>Antec NX100</td> <td> <a href = https://www.proshop.de/Gehaeuse/Antec-NX100-mid-tower-ATX-Gehaeuse-Miditower-Grau/2778576?utm_source=geizhals&utm_medium=cpc&utm_campaign=pricesite> Hier Klicken </a> </td> </tr>
 </table>
-<a href = https://www.hardwaredealz.com/bester-gaming-pc-fuer-unter-700-euro-gamer-pc-bis-700-euro>Quelle</a><br>
-</body>
+<a class="Quelle" href = https://www.hardwaredealz.com/bester-gaming-pc-fuer-unter-700-euro-gamer-pc-bis-700-euro>Quelle</a><br>
     
 </body>
 </html>
