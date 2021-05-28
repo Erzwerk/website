@@ -21,8 +21,8 @@ include "Navbar57.php";
     <div class="position2">
         <select name="my_html_select_box" id  ="HardwareCPU" class="select">
             <option value="I9_11900k">I9-11900k</option>
-            <option value="Ryzen_7_5800x">Ryzen 7</option>
-            <option value="Ryzen_9_5900x">Ryzen 9</option>
+            <option value="Ryzen_7_5800x">Ryzen 7 5800x</option>
+            <option value="Ryzen_9_5900x">Ryzen 9 5900x</option>
         </select>
 
         <select name="my_html_select_box_2" id  ="HardwareGPU" class="select">
