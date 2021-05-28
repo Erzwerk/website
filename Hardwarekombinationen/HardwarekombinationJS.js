@@ -41,21 +41,32 @@ function was_saved () {
         var speichern = CPU + "/" + GPU + "/Bild.png";
         console.log(speichern);
 
-        document.cookie = speichern + "; expires=Fri, 31 Dec 9999 23:59:59 GMT;path=/;SameSite=Lax";
+        document.cookie = "dateipfad=" + speichern + "; expires=Fri, 31 Dec 9999 23:59:59 GMT;path=/;SameSite=Lax";
         }
         else {
             throw ("select a benchmark");
         }
 }
 document.getElementById("save").addEventListener("click", was_saved);
-
+function getCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for(var i = 0; i <ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+}
 function was_tested(){
     console.log("1");
-    var speichern = document.cookie;
-    console.log(speichern);
-
-    var dateipfad = speichern;
-    console.log (dateipfad);
+    var dateipfad = getCookie("dateipfad");
+    console.log(dateipfad);
 
     var element = document.getElementById("Bild").firstElementChild;
     if (element != null){
@@ -65,6 +76,5 @@ function was_tested(){
     var img = document.createElement("img");
     img.src = dateipfad;
     document.getElementById("Bild").appendChild(img);
-    } 
-
+    }
 document.getElementById("test").addEventListener("click", was_tested);
