@@ -37,6 +37,7 @@
         - Witcher 3: 80fps @FullHD und hohe Einstellungen<br>
         - Cinebench R15 (Multi): 1300 Punkte<br>
         - 3DMark Firestrike: 13000 Punkte<br>
+        <br>
     </section>
 <table style="margin: auto">
     <tr> <th>Bauteil</th>        <th>Bezeichnung</th>                    <th>Link</th> </tr>
