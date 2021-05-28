@@ -19,11 +19,13 @@
         ?>
 <body>
 <section>
+    <h2> Erklärung </h2>
     Mit diesem Gaming PC sollte es möglich sein alle aktuellen Titel in höchsten Einstellungen (maximalen Details)<br>
     in FullHD und WQHD (1440p) Auflösung mit mindestens 60 Bildern pro Sekunde spielen zu können. Alles in<br>
     dieser Zusammenstellung ist von uns perfekt auf einander abgestimmt worden. – Das komplette Zubehör (Kabel usw.)<br>
     liegt im Lieferumfang der einzelnen Produkte bei – es wird nichts weiter benötigt<br>
     <br>
+    <h2> Performance </h2>
     - Counter Strike (CS:GO): 370fps @FullHD und höchste Einstellungen<br>
     - Overwatch: 210fps @FullHD und höchste Einstellungen<br>
     - Fortnite Battle Royale: 145fps @FullHD und höchsten (Episch) Einstellungen<br>
@@ -39,7 +41,7 @@
     - 3DMark Firestrike: 21500 Punkte<br>
     <br>
 </section>
-<table>
+<table style="margin: auto">
     <tr> <th>Bauteil</th>        <th>Bezeichnung</th>                    <th>Link</th> </tr>
     <tr> <td>Prozessor</td>      <td>AMD Ryzen 5 3600</td> <td> <a href = https://www.mindfactory.de/product_info.php/AMD-Ryzen-5-3600-6x-3-60GHz-So-AM4-BOX_1313643.html> Hier Klicken </a> </td></tr>
     <tr> <td>Mainboard</td>      <td>MSI B450M Pro-VDH Max</td> <td> <a href = https://www.mindfactory.de/product_info.php/MSI-B450M-Pro-VDH-Max-AMD-B450-So-AM4-Dual-Channel-DDR4-mATX-Retail_1327450.html> Hier Klicken </a> </td> </tr>
@@ -49,6 +51,6 @@
     <tr> <td>Netzteil</td>       <td>500W be quiet! Pure Power 11</td> <td> <a href = https://www.equippr.de/be-quiet-pure-power-11-500-watt-atx-bn293-2006621.html> Hier Klicken </a> </td> </tr>
     <tr> <td>Gehäuse</td>        <td>Kolink Stronghold</td> <td> <a href = https://www.mindfactory.de/product_info.php/Kolink-International-Stronghold-mit-Sichtfenster-Midi-Tower-ohne-Netzte_1234939.html> Hier Klicken </a> </td> </tr>
 </table>
-<a href = https://www.hardwaredealz.com/bester-gaming-pc-fuer-unter-900-euro-gamer-pc-bis-900-euro>Quelle</a><br>
+<a class="Quelle" href = https://www.hardwaredealz.com/bester-gaming-pc-fuer-unter-900-euro-gamer-pc-bis-900-euro>Quelle</a><br>
 </body>
 </html>
