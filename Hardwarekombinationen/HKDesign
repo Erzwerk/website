@@ -1,0 +1,24 @@
+body{
+    color: white;
+    text-align: center;
+}
+
+nav{
+    text-align: left;
+}
+
+a{
+    color: springgreen;
+}
+
+th{
+    text-decoration: underline;
+}
+
+tr, td, th{
+    border: 1px ridge cornflowerblue;
+}
+
+.Quelle{
+    color: darkcyan;
+}
