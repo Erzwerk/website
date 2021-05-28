@@ -47,6 +47,13 @@ include "NavbarHK.php";
     </button>
 </div>
 
+<div class="position1">
+    <button id ="test" type ="button" class="glow-on-hover">
+        Gespeicherte Benchmarks anzeigen
+    </button>
+</div>
+
+
 </body>
 <script src = HardwarekombinationJS.js></script>
 </html>
