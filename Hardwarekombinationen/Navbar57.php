@@ -5,7 +5,7 @@ session_start();
 <nav>
 
     <ul class="menu">
-        <li>  <a href="../Startseite/Startseite.php"><i class="fa fa-fw fa-home"></i> STARTSEITE</a>
+        <li>  <a href="../index.php"><i class="fa fa-fw fa-home"></i> STARTSEITE</a>
         </li>
 
         <li><a class="homer" href="#"><i class="fa fa-fw fa-television"></i> HARDWAREKOMBINATIONEN</a>
