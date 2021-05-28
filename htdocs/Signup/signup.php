@@ -5,6 +5,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../Navbar/Style.css"/>
     <link rel="stylesheet" type="text/css" href="../HeaderDesign.css"/>
+    <link rel="stylesheet" type="text/css" href="SignUpDesign.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="keywords" content="Signup, Registrierung" />
     <meta name="description" content="Registrierung der Website Gamingfacts"/>
@@ -16,6 +17,11 @@
 ?>
 
 <body>
+    
+    <div class="Af">
+        <p> Registriere und logge dich ein, um exklusive Inhalte freizuschalten!</p>
+    </div>
+    
 <h2> Registrierung</h2>
 <form action="signup.inc.php" method="post">
         <input type="text" name="name" placeholder="Vor- und Nachnahme"><br>
@@ -56,12 +62,5 @@ else if ($_GET["error"] == "usernametaken"){
 else if ($_GET["error"] == "emailtaken"){
     echo "<p>Die Email-Adresse wird bereits verwendet</p>";
 }
-else if ($_GET["error"] == "pwdtaken"){
-    echo "<p>Das Passwort ist bereits vergeben</p>";
-}
-else if ($_GET["error"] == "none"){
-    echo "<p>Du hast dich erfolgreich registriert.</p>"; 
-}
-
 }
 ?>
