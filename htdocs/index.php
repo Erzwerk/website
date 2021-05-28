@@ -16,7 +16,7 @@
 
         <?php
         include "header.html";
-        include "NavbarS.php";
+        include "Startseite/NavbarS.php";
         ?>
 
 <body>
