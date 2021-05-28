@@ -20,14 +20,14 @@ include "NavbarHK.php";
 <form>
     <div class="position2">
         <select name="my_html_select_box" id  ="HardwareCPU" class="select">
-            <option value="I9_9900k">I9-9900k</option>
-            <option value="Ryzen_7_3900x">Ryzen 7</option>
+            <option value="I9_11900k">I9-11900k</option>
+            <option value="Ryzen_7_5800x">Ryzen 7</option>
             <option value="Ryzen_9_5900x">Ryzen 9</option>
         </select>
 
         <select name="my_html_select_box_2" id  ="HardwareGPU" class="select">
-            <option value="Radeon_6700xt">Radeon 6700xt</option>
-            <option value="Radeon_6800xt">Radeon 6800xt</option>
+            <option value="RX_6900XT">Radeon 6900XT</option>
+            <option value="RTX_3080">Nvidia RTX 3080</option>
             <option value="RTX_3090">Nvidia RTX 3090</option>
         </select>
     </div>
@@ -39,7 +39,7 @@ include "NavbarHK.php";
     </button>
 </div>
 
-<img src="../I9_9900k/RTX_3090/Bild.png" alt="hallo welt">
+<section id = "Bild"></section>
 
 <div class="position1">
     <button id ="save" type ="button" class="glow-on-hover"> <i  class="fa fa-lock" ></i>
