@@ -6,7 +6,7 @@ if(!$conn){
     die("Connection failed: " . mysqli_connect_error());
 }
 
-require 'functions.inc.php';
+require "functions.inc.php";
 
 if(isset($_POST["submit"])){
     $name = $_POST["name"];
@@ -28,7 +28,7 @@ if(isset($_POST["submit"])){
         exit();
     }
     if(invalidEmail($email) === true){
-        header("location: signup.php?error=invalidEmail");                                                               
+        header("location: signup.php?error=invalidEmail");
         exit();
     }
     if (pwdlength($pwd) === true){
@@ -49,7 +49,7 @@ if(isset($_POST["submit"])){
     }
 
     createUser($conn, $name, $email, $benutzername, $pwd);
-    
+
     }
     else {
     header("location: signup.php");
