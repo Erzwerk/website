@@ -48,4 +48,5 @@ include "NavbarHK.php";
 </div>
 
 </body>
+<script src = HardwarekombinationJS.js></script>
 </html>
