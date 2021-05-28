@@ -5,5 +5,3 @@ session_unset();
 session_destroy();
 
 header("location:../Startseite/Startseite.php");
-exit();
-
