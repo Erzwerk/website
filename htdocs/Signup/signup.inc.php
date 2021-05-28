@@ -47,10 +47,6 @@ if(isset($_POST["submit"])){
         header("Location: signup.php?error=emailtaken");
         exit();
     }
-    if (pwdExists($conn, $pwd) !== null){
-        header("location: signup.php?error=pwdtaken");
-        exit();
-    }
 
     createUser($conn, $name, $email, $benutzername, $pwd);
     
